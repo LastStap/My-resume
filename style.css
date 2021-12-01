@@ -1,0 +1,69 @@
+.main_Project_Screen{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    /* margin: 20px 20px 20px 20px; */
+}
+.black_Block{
+    background-color:#1E2939;
+    height: 1320px;
+    width: 370px;
+    left: 40px;
+    top: 40px;
+    border-radius: 0px;
+    color: #FFFFFF;
+}
+
+#my_Foto{
+    width: 370px;
+    height: 354px;
+    margin-top: 40px;
+}
+#telephone, #email{
+    text-decoration: none;
+    color: #FFFFFF;
+    opacity: 0.5;
+    font-style: Montserrat;
+}
+#email{
+    text-decoration: underline;
+}
+.tech_Skills, .soft_skills, .contacts{
+    margin-left: 40px;
+}
+ul{
+    padding-inline-start: 17px;
+}
+ol{
+    padding-inline-start: 17px;
+}
+.white_Block{
+    margin-left: 90px;
+}
+.header_And_Description{
+    width: 400px;
+    height: 230px;
+    margin-top: 80px;
+}
+.project_block{
+    width: 490px;
+    height: 107px;
+}
+.work_Experience{
+    width: 530px;
+    height: 220px;
+}
+.first_Work, .second_Work{
+    width: 530px;
+    height: 150px;
+}
+.education{
+    width: 330px;
+    height: 120px;
+}
+.black_Block li{
+    color:tomato ;
+}
+li span{
+    color: #FFFFFF;
+}
