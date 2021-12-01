@@ -16,17 +16,17 @@
             <img id="my_Foto" src="photo.jpg" alt="my photo">                           <!-- моё фото-->
             
             <div class="contacts">
-                <h3>Contacts</h3>
-                <span>C:</span>
+                <h2>Contacts</h2>
+                <span class="boldCHAR">C:</span>
                 <a id="telephone" href="tel: +38(093)0413051">+38(093)0413051</a>
                 <br>
-                <span>E:</span>
+                <span class="boldCHAR">E:</span>
                 <a id="email" href="dumshen@gmail.com">dumshen@gmail.com</a>
             </div>
 
             <div class="tech_Skills">                       <!-- Мои навыки-->
-                <h3>Tech Skills</h3>
-                <ul>
+                <h2>Tech Skills</h2>
+                <ul class="link_whatIdo">
                     <li><span>HTML5</span></li>
                     <li><span>CSS3</span></li>
                     <li><span>GIT</span></li>
@@ -38,8 +38,8 @@
             </div>
 
             <div class="soft_skills">                       <!--мои умения -->
-                <h3>Soft Skills</h3>
-                <ul>
+                <h2>Soft Skills</h2>
+                <ul class="link_whatIdo">
                     <li><span>Scrum</span></li>
                     <li><span>Agile</span></li>
                     <li><span>GTD</span></li>
@@ -53,44 +53,42 @@
         <div class="white_Block">                           <!-- Это блок, в котором есть описание меня, как специалиста -->
 
             <div class="header_And_Description">            <!-- Блок, в котором моё имя и немного описания -->
-                <p>Front-End Developer</p> 
-                <h1>Daniil Dumshenko</h1>
-                <p>
+                <h4>Front-End Developer</h4> 
+                <h1 id="myName">Daniil Dumshenko</h1>
+                <p class="text14px">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt aut ipsam sit neque doloremque provident ducimus accusamus perspiciatis tenetur fugit 
-                    repellendus velit quibusdam aspernatur, suscipit officia sunt, magnam explicabo nam! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo ab modi 
-                    dolorem dolores delectus esse. Praesentium, 
-                    maiores non! At ipsa beatae sed esse pariatur blanditiis quisquam facere magnam assumenda velit.
+                    repellendus velit quibusdam aspernatur, suscipit officia 
                 </p>
             </div>
 
             <div class="project_block">                     <!-- Блок с проэктами -->
-                <h2>Project</h2>
+                <h2>Projects</h2>
                 <ol>
                     <li>
-                        <a href="https://hellenglish.goit.global/">https://hellenglish.goit.global/</a>
-                        <span>..............</span>
-                        <span>[ HTML5, CSS3 ]</span>
+                        <a class="link_whatIdo" href="https://hellenglish.goit.global/">https://hellenglish.goit.global/</a>
+                        <span class="Distance">..............</span>
+                        <span><span class="blackLine">[</span> HTML5, CSS3 <span class="blackLine">]</span></span>
                     </li>
 
                     <li>
-                        <a href="https://cryptohub.goit.global/">https://cryptohub.goit.global/</a>
-                        <span>..............</span>
-                        <span>[ JavaScript ]</span>
+                        <a class="link_whatIdo" href="https://cryptohub.goit.global/">https://cryptohub.goit.global/</a>
+                        <span class="Distance">...............</span>
+                        <span><span class="blackLine">[</span> JavaScript <span class="blackLine">]</span></span>
                     </li>
 
                     <li>
-                        <a href="https://kidslike.goit.global/">https://kidslike.goit.global/</a>
-                        <span>.................</span>
-                        <span>[ React.js, Node.js ]</span>
+                        <a class="link_whatIdo" href="https://kidslike.goit.global/">https://kidslike.goit.global/</a>
+                        <span class="Distance">.....................</span>
+                        <span><span class="blackLine">[</span> React.js, Node.js <span class="blackLine">]</span></span>
                     </li>
                 </ol>
             </div>
 
             <div class="work_Experience">                   <!-- Блок с опытом работы-->
                 <h2>Work Experience</h2>
-                <h4>Front-End Developer Freelance </h4>
-                <p>September 2019 - up to now   |   Country</p>
-                <ul>
+                <h3>Front-End Developer <span id="freelance">Freelance</span> </h3>
+                <h5 class="half-invisible">September 2019 - up to now   <span class="blackLine">|</span>   Country</h5>
+                <ul class="text14px">
                     <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
                     <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
                     <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
@@ -99,9 +97,9 @@
             </div>
 
             <div class="first_Work">                    <!-- Блок с моей первой работой-->
-                <h4>Manager Roga & Kopyta New</h4>
-                <p>March 2015 - October 2018   |   Country</p>
-                <ul>
+                <h3>Manager <span id="first_work">Roga & Kopyta New</span></h3>
+                <h5 class="half-invisible">March 2015 - October 2018   <span class="blackLine">|</span>   Country</h5>
+                <ul class="text14px">
                     <li>Quis ipsum suspendisse ultrices gravida.</li>
                     <li>Quis ipsum suspendisse ultrices gravida.</li>
                     <li>Quis ipsum suspendisse ultrices gravida.</li>
@@ -109,9 +107,9 @@
             </div>
 
             <div class="second_Work">                    <!-- блок с моей второй работой-->
-                <h4>Manager Roga & Kopyta LLC </h4>
-                <p>June 2014 - February 2015   |   Country</p>
-                <ul>
+                <h3>Manager <span id="second_Work">Roga & Kopyta LLC</spanid> </h3>
+                <h5 class="half-invisible">June 2014 - February 2015   <span class="blackLine">|</span>   Country</h5>
+                <ul class="text14px">
                     <li>Risus commodo viverra maecenas. </li>
                     <li>Risus commodo viverra maecenas. </li>
                     <li>Risus commodo viverra maecenas. </li>
@@ -121,9 +119,9 @@
 
             <div class="education">                      <!-- блок с моим образованием-->
                 <h2>Education</h2>
-                <h4>National University of Radioelectronics</h4>
+                <h3 id="education">National University of Radioelectronics</h3>
                 <h5>Management</h5>
-                <p>September 2009 - June 2014   |   Country</p>
+                <h5 class="half-invisible">September 2009 - June 2014   <span class="blackLine">|</span>   Country</h5>
             </div>
 
         </div>
